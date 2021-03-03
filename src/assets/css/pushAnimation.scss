@@ -1,0 +1,18 @@
+.v-enter {
+  transform: translate(100%);
+}
+.v-enter-to {
+  transform: translate(0);
+}
+.v-enter-active {
+  transition: all 0.3s;;
+}
+.v-leave {
+  transform: translate(0);
+}
+.v-leave-to {
+  transform: translate(100%);
+}
+.v-leave-active {
+  transition: all 0.3s;
+}
